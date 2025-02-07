@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hide and show image using buttons</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Function to hide and show the first image
+        function toggleImage1() {
+            const img1 = document.getElementById('myImage1');
+            if(img1.style.display === 'none') {//hide the first image
+               img1.style.display = 'block';
+        }else{
+               img1.style.display = 'none';
+        }
+    }
+    
+        // function to hide and show the second image
+        function toggleImage2() { 
+            const img2 = document.getElementById('myImage2')
+           if(img2.style.display === 'none') { //hide the second image
+              img2.style.display = 'block';
+        }else{
+              img2.style.display = 'none';
+        }
+    }
+        
+    </script>
+
+</head>
+<body>
+    <h1>Welcome to My Page</h1>
+    <p>This is a simple webpage with two images and buttons to show them!</p>
+    <button onclick ="toggleImage1()">Click Me</button>
+    <img id="myImage1" src="./download.jpg" width="200" height="200">
+
+
+    <br><br>
+
+
+    <button onclick = "toggleImage2()">click Me</button>
+    <img id="myImage2" src="./butterfly.jpg" width="200" height="200">
+
+
+
+
+</body>
+</html>

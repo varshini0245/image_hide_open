@@ -1,0 +1,51 @@
+body {
+    background-color: #f3f6f7; /* Light blue background */
+    font-family: 'Arial', sans-serif; /* Correct font family */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the heading */
+h1 {
+    color: #10a518;
+    font-size: 2em; /* Add a little larger size */
+}
+
+/* Style the paragraph */
+p {
+    color: #1d20d1;
+    font-size: 1.2em; /* Slightly larger font size for better readability */
+}
+
+/* Style the button */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: rgb(216, 232, 233); /* Light text color */
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border: none; /* No border for a cleaner look */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Focus effect for accessibility (when the button is clicked or focused) */
+button:focus {
+    outline: 2px solid #10a518; /* Green outline when focused */
+    outline-offset: 2px;
+}
+
+/* Optional: Adjust button on click */
+button:active {
+    background-color: #388e3c; /* Even darker green when clicked */
+}
