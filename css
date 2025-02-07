@@ -1,0 +1,4 @@
+// script.js
+function hideImage(imageId) {
+    document.getElementById(imageId).style.display = "none";
+}
